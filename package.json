@@ -1,35 +1,21 @@
 {
-  "name": "tienda-react",
+  "name": "app-react",
   "version": "1.0.0",
-  "description": "Tienda realizada con React",
+  "description": "Esta es la primera aplicación que creamos usando React Js",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fcastaneda9725/Tienda-React.git"
-  },
-  "keywords": [
-    "Tienda",
-    "Certificado",
-    "Next",
-    "U",
-    "React"
-  ],
-  "author": "Francisco Castañeda",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fcastaneda9725/Tienda-React/issues"
-  },
-  "homepage": "https://github.com/fcastaneda9725/Tienda-React#readme",
+  "author": "NextU",
+  "license": "MIT",
   "dependencies": {
+    "babel": "^6.23.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "react": "^15.6.2",
-    "react-dom": "^15.6.1",
+    "react-dom": "^15.6.2",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.2"
   }
