@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App.jsx';
-import Componente1 from './componente1.jsx';
+import Login from './login.jsx';
 
 ReactDOM.render(<App />, document.getElementById('app'));
-ReactDOM.render(<Componente1 />, document.getElementById('componente'));
+ReactDOM.render(<Login />, document.getElementById('login'));
