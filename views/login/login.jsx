@@ -1,4 +1,5 @@
 import React from 'react';
+import { auth } from './firebase/auth.jsx';
 
 class Login extends React.Component {
   constructor(){
