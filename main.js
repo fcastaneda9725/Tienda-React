@@ -1,8 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+import { render } from 'react-dom';
+import { Router, Route, hashHistory } from 'react-router';
 import App from './App.jsx';
 import Login from './views/login/login.jsx';
+import Dashboard from './views/dashboard/dasboard.jsx';
+import Menu from './views/menu/menu.jsx';
 
-ReactDOM.render(<App />, document.getElementById('app'));
-ReactDOM.render(<Login />, document.getElementById('login'));
+render (
+  <Router history={hashHistory}>
+    <Route path='/' component={Login} />
+    <Route path= '/dashboard' component={Dashboard} />
+  </Router>,
+  document.getElementById('app')
+)
